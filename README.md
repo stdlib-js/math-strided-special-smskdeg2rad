@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import smskdeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskdeg2rad@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-special-smskdeg2rad/tags). For example,
+
+```javascript
 import smskdeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskdeg2rad@v0.2.1-esm/index.mjs';
 ```
 
@@ -172,7 +177,7 @@ smskdeg2rad.ndarray( 3, x, 2, 1, m, 2, 1, y, -1, y.length-1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import smskdeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskdeg2rad@v0.2.1-esm/index.mjs';
+import smskdeg2rad from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskdeg2rad@esm/index.mjs';
 
 var x = new Float32Array( 10 );
 var m = new Uint8Array( 10 );
